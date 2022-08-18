@@ -12,9 +12,7 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
     - [Links](#links)
   - [My process](#my-process)
     - [Built with](#built-with)
-    - [What I learned](#what-i-learned)
     - [Continued development](#continued-development)
-    - [Useful resources](#useful-resources)
   - [Author](#author)
 
 ## Overview
@@ -25,7 +23,7 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./screenshot.png)
 
 ### Links
 
@@ -41,11 +39,9 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 - CSS Grid
 - [Sass](https://sass-lang.com)
 
-### What I learned
-
 ### Continued development
 
-### Useful resources
+Definitely need more practice working with multiple backgrounds.
 
 ## Author
 

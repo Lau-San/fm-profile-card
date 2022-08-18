@@ -1,8 +1,131 @@
-@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Kumbh+Sans:wght@400;700&family=Lexend+Deca&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700");
 /*
 
 -> Kumbh Sans
 	> 400
 	> 700
 
-*//*# sourceMappingURL=main.css.map */
+*/
+:root {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+}
+
+body {
+  font-family: "Kumbh Sans";
+}
+
+.wrapper {
+  background: url(../images/bg-pattern-top.svg) no-repeat top -500px left -290px, url(../images/bg-pattern-bottom.svg) no-repeat bottom -640px right -220px, hsl(185deg, 75%, 39%);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+@media (max-width: 800px) {
+  .wrapper {
+    background: url(../images/bg-pattern-top.svg) no-repeat top -550px left -600px, url(../images/bg-pattern-bottom.svg) no-repeat bottom -680px right -500px, hsl(185deg, 75%, 39%);
+  }
+}
+@media (max-width: 414px) {
+  .wrapper {
+    background: url(../images/bg-pattern-top.svg) no-repeat top -650px left -700px, url(../images/bg-pattern-bottom.svg) no-repeat bottom -570px right -740px, hsl(185deg, 75%, 39%);
+  }
+}
+
+.card {
+  filter: drop-shadow(0 20px 30px rgba(0, 0, 0, 0.2));
+  width: 330px;
+}
+.card .banner {
+  width: 100%;
+  border-radius: 0.8rem 0.8rem 0 0;
+}
+.card .info {
+  border-radius: 0 0 0.8rem 0.8rem;
+}
+
+.info {
+  background: #fff;
+  padding-top: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+  position: relative;
+}
+
+.profile-picture {
+  background-color: #fff;
+  border: 5px solid #fff;
+  border-radius: 50%;
+  align-self: center;
+  position: absolute;
+  top: 0;
+  transform: translate(0, -50%);
+}
+
+.details {
+  color: hsl(227deg, 10%, 46%);
+  text-align: center;
+}
+.details .name-age {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+}
+.details .name-age .name {
+  color: hsl(229deg, 23%, 23%);
+  font-weight: 700;
+}
+.details .country {
+  font-size: 0.8rem;
+  margin-top: 0.4rem;
+}
+
+.stats {
+  border-top: 1px solid hsla(0deg, 0%, 59%, 0.2);
+  padding: 1.4rem 1.5rem;
+  margin-top: 1.5rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+}
+.stats .stat {
+  text-align: center;
+}
+.stats .value {
+  color: hsl(229deg, 23%, 23%);
+  font-weight: 700;
+}
+.stats .stat-name {
+  color: hsl(227deg, 10%, 46%);
+  font-size: 0.6rem;
+  letter-spacing: 0.1rem;
+  margin-top: 0.4rem;
+}
+
+.attribution {
+  color: #fff;
+  font-size: 0.6rem;
+  margin-top: 0.4rem;
+}
+.attribution a {
+  color: #fff;
+  font-weight: 700;
+  transition: all 0.5s ease;
+}
+.attribution a:hover {
+  color: hsl(229deg, 23%, 23%);
+}/*# sourceMappingURL=main.css.map */
