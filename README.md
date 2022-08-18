@@ -27,7 +27,7 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ### Links
 
-<!-- - Solution URL: [Add solution URL here](https://your-solution-url.com) -->
+- Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/profile-card-with-flexbox-and-css-grid-jkmNDj6neF)
 - Live Site URL: [Github Pages](https://lau-san.github.io/fm-profile-card/)
 
 ## My process
