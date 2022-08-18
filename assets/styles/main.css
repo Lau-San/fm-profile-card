@@ -111,7 +111,7 @@ body {
 }
 .stats .stat-name {
   color: hsl(227deg, 10%, 46%);
-  font-size: 0.6rem;
+  font-size: 0.5rem;
   letter-spacing: 0.1rem;
   margin-top: 0.4rem;
 }
